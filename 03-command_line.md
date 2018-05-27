@@ -78,7 +78,11 @@ Command | Action
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+The command `xargs` is used to execute another command on all the items in a list.
+This seems to be able to reduce the need for some for loops and hence make the scripts
+shorter (and more readable?).  For example, to move all .fig files into the subdirectory "Figures":
+
+`ls *.fig | xargs -n1 -i mv {} Figures/{}`
 
  
 
