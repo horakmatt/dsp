@@ -20,7 +20,21 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+Action | Command
+-------|--------
+show current working directory | `pwd`
+create a directory | `mkdir`
+delete a directory | `rm -r directory_name`
+create a file with `touch` | `touch file_name`
+delete a file | `rm filename`
+rename a file | `mv file_name1 file_name_2`
+list hidden files | `ls -a`
+copy a file from one directory to another | `cp path1/file_name1 path2/file_name2`
+change permissions to allow execution | `chmod 755 file_name`
+concatenate and print files to stdout | `cat file1 file2 ...`
+see the top n lines of a file | `head -n file_name`
+preview contents of file | `more file_name` (hit space to advance page)
 
 ---
 
@@ -35,7 +49,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Action
+--------|-------
+`ls`  | List file in the current directory
+`ls -a`  | List files, including hidden files
+`ls -l`  | List files with details including, permissions, date last modified, etc
+`ls -lh`  | Same as `ls -l` but writes the size in easier-to-read format, eg. 19K instead of 19423
+`ls -lah`  | Same as above, but lists hidden files, too
+`ls -t`  | List files sorted by last modification
+`ls -Glp`  | List files with details, color coded, and with directories followed by "/"
 
 ---
 
@@ -43,8 +65,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Command | Action
+--------|-------
+`ls -d` | Lists only directories
+`ls -m` | For getting a comma-separated list of your files
+`ls -r` | Reverse the sort order when listing (can combine with `ls -t`)
+`ls -o` | Long list format but without group name
+`ls -R` | Display subdirectories, too.
 ---
 
 ### Q4.  Xargs   
