@@ -23,7 +23,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 Action | Command
 -------|--------
-show current working directory | `pwd`
+show current working directory path | `pwd`
 create a directory | `mkdir`
 delete a directory | `rm -r directory_name`
 create a file with `touch` | `touch file_name`
